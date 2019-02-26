@@ -2086,40 +2086,6 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Directions to Submit\n",
-    "\n",
-    "> Before you submit your project, you need to create a .html or .pdf version of this notebook in the workspace here. To do that, run the code cell below. If it worked correctly, you should get a return code of 0, and you should see the generated .html file in the workspace directory (click on the orange Jupyter icon in the upper left).\n",
-    "\n",
-    "> Alternatively, you can download this report as .html via the **File** > **Download as** submenu, and then manually upload it into the workspace directory by clicking on the orange Jupyter icon in the upper left, then using the Upload button.\n",
-    "\n",
-    "> Once you've done this, you can submit your project by clicking on the \"Submit Project\" button in the lower right here. This will create and submit a zip file with this .ipynb doc and the .html or .pdf version you created. Congratulations!"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 101,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "0"
-      ]
-     },
-     "execution_count": 101,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "from subprocess import call\n",
-    "call(['python', '-m', 'nbconvert', 'Analyze_ab_test_results_notebook.ipynb'])"
-   ]
-  },
-  {
    "cell_type": "code",
    "execution_count": null,
    "metadata": {},
@@ -2143,7 +2109,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.6.3"
+   "version": "3.7.1"
   }
  },
  "nbformat": 4,
