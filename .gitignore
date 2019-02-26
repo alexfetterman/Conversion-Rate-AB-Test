@@ -2,3 +2,4 @@
 *.DS_Store
 ab_data.csv
 countries.csv
+.ipnyb_checkpoints/
