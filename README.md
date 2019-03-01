@@ -1,10 +1,11 @@
 ## Analysis of A/B Test Results
 An e-commerce website has submitted the results of an A/B test run for analysis to determine whether they should try a new page design to increase conversions. This notebook analyzes these results using bootstrapping for hypothesis testing and a logistic regression model. Completed as part of the requirements for Udacity's Data Analysis Nanodegree.
 
-#### Overview
-Conversion rates were compared between users sent to the old page and users sent to the new page. 
-EDA process: remove miscategorized users from the dataset, drop duplicate users, calculate various sample statistics.
-Statistical analysis: conduct bootstrap hypothesis testing, plot histogram of conversion differences as simulated under the null, interpret p-value, verify with z-test, verify with logistic regression model, explore possible correlation between user country and probability of conversion.
+#### EDA
+Remove miscategorized users from the dataset, drop duplicate users, calculate various observed statistics for later use during analysis.
+
+#### Statistical Analysis
+Conduct bootstrap hypothesis testing, plot histogram of conversion differences as simulated under the null, interpret p-value, verify with z-test, verify with logistic regression model, explore possible correlation between user country and probability of conversion.
 
 #### Technologies
 Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, StatsModels
