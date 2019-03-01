@@ -1,16 +1,16 @@
-### Date created
-2018.11.02
-### Project Title
-Bikeshare Data Exploration Tool
+## Analysis of A/B Test Results
+I completed this project as part of the requirements for Udacity's Data Analysis Nanodegree.
 
-### Description
+#### Overview
 This project allows users to request and review statistics related to bikeshare data in either Chicago, New York, or Washington. It is an interactive platform that runs in the terminal.
 
-### Files used
+#### Technologies
 bikeshare.py
 washington.csv
 new_york_city.csv
 chicago.csv
 
-### Credits
-Thanks to Juno Lee and Richard Kalehoff of Udacity!
+#### Findings
+
+#### Date created
+2018.11.02
