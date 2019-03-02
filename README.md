@@ -15,4 +15,4 @@ Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, StatsModels
 * User country and probability of conversion do not appear to have a relationship.
 
 #### Date created
-2018.02.11
+2019.02.11
